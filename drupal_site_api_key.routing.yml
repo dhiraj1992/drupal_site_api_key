@@ -1,0 +1,12 @@
+drupal_site_api_key.content:
+  path: '/page_json/{site_api_key}/{node}'
+  defaults:
+    _controller: '\Drupal\drupal_site_api_key\Controller\DrupalSiteApiKeyController::content'
+  options:
+      parameters:
+        site_api_key:
+          type: String
+        node:
+          type: entity:node
+  requirements:
+    _permission: 'access content'

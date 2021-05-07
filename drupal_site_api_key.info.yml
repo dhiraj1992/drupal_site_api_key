@@ -1,0 +1,5 @@
+name: Drupal Site API Key
+type: module
+description: 'Site API Key textfiled add to the Site Information form.'
+package: Custom
+core_version_requirement: ^8 || ^9
